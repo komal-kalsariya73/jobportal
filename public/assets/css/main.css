@@ -1,0 +1,179 @@
+.heading-title {
+    margin-bottom: 40px;
+}
+.heading-title h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0;
+}
+.heading-title p {
+    font-size: 1rem;
+    color: #777;
+}
+.clear-custom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* gap: 20px; */
+}
+.col-lg-4, .col-md-4, .col-sm-6, .col-xs-12 {
+    flex: 0 0 30%;
+    /* max-width: 30%; */
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+    .col-lg-4, .col-md-4, .col-sm-6, .col-xs-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Pricing Plan Styles */
+.n-pricing-plan {
+    padding: 20px;
+}
+.n-price-single {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.n-price-single:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.n-price-top {
+    height: 150px;
+    background: linear-gradient(to right, #233d7b, #1a2b5a);
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+.n-price-top .n-price-top-text {
+    position: relative;
+    height: 100%;
+}
+.n-price-top h3 {
+    font-size: 2rem;
+    margin: 0;
+    color: white;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif !important;
+}
+.n-price-top p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+/* .n-price-bottom {
+  padding: 35px;
+background-color: #FFF;
+text-align: center;
+} */
+.n-pricing-plan .n-price-single .n-price-bottom ul {
+list-style: none;
+text-align: center;
+margin-bottom: 30px;
+color: #777;
+
+}
+.n-price-bottom ul li {
+    font-size: 0.95rem;
+    margin: 10px 0;
+     display: flex;
+  justify-content: center;
+    /* color: #555; */
+    padding: 5px 0;
+color: #777;
+font-size: 16px;
+font-weight: 500;
+}
+.n-price-bottom ul li i {
+    color: #fb236a;
+    margin-right: 10px;
+}
+.n-btn-flat {
+    display: inline-block;
+    background:  #90c317;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    transition: background 0.3s;
+}
+section.n-featured-jobs {
+padding: 60px 0;
+}
+
+.testimonials-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .heading-title {
+    margin-bottom: 30px;
+  }
+  
+  .testimonials-slider {
+    margin: 0 auto;
+  }
+  
+  .testimonial-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-content {
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-content i {
+    color: #233d7b;
+    font-size: 20px;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  
+  .user-info img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .user-info h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .user-info p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .testimonial-item {
+      margin: 10px 0;
+    }
+  }
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 70px !important; 
+}

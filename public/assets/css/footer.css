@@ -1,0 +1,158 @@
+.footer {
+    background: url('https://jobs.nokriwp.com/wp-content/uploads/2018/10/acasc.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 40px 0;
+    position: relative;
+    padding-top: 80px;
+  }
+
+  .footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(1, 21, 41, 0.8); /* Blue Overlay */
+    z-index: 1;
+  }
+
+  .footer .container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footer .logo-section {
+    flex: 1;
+    min-width: 200px;
+    /* text-align: center; */
+  }
+
+  .footer .logo img {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+
+  .footer .social-links {
+    margin: 10px 6px;
+    flex: 1;
+    
+  }
+
+  .footer .social-links a {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 5px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .footer .social-links a:hover {
+    color: #00aced; /* Light Blue */
+  }
+
+  .footer .links-section {
+    flex: 2;
+    min-width: 300px;
+  }
+
+  .footer .links-section h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+
+  .footer .links-section ul {
+    /* list-style: none; */
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .footer .links-section ul li {
+    margin: 0;
+  }
+
+  .footer .links-section ul li a {
+    color: #fff;
+     text-decoration: none; 
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+
+  .footer .links-section ul li a:hover {
+    color: #00aced;
+  }
+
+  .footer .apps-section {
+    /* flex: 1; */
+    min-width: 200px;
+    /* text-align: center; */
+  }
+
+  .footer .apps-section h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+  }
+
+  .footer .app-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); */
+    transition: transform 0.3s ease;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px 30px;
+  
+  }
+
+  .footer .app-links a:hover {
+    transform: scale(1.05);
+  }
+
+  .footer-bottom {
+    text-align: center;
+    padding: 15px 0;
+    background: #00244d; 
+    margin-top: 30px;
+  }
+
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    color:#fff;
+  }
+
+  .footer-bottom p a {
+    color: #00aced;
+    text-decoration: none;
+  }
+
+  .footer-bottom p a:hover {
+    text-decoration: underline;
+  } 
+  .site-logo a {
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    text-align: left;
+    text-decoration: none;
+}

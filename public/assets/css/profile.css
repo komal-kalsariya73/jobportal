@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+.resume-3-sidebar {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.resume-3-sidebar h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.n-candidate-info ul {
+    list-style: none;
+    padding: 0;
+}
+.n-candidate-info ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.n-candidate-info ul li i {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 15px;
+}
+.resume-detail-meta small {
+    display: block;
+    color: #777;
+}
+.resume-detail-meta strong {
+    font-weight: bold;
+}
+.resume-3-sidebar button,
+.resume-3-sidebar a {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.widget-heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.form-control {
+    font-size: 14px;
+}
+.resume-3-detail {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.resume-3-box {
+    margin-bottom: 30px;
+}
+.resume-3-box h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.bar-wrapper {
+    margin-bottom: 20px;
+}
+.progress {
+    height: 8px;
+    background-color: #f1f1f1;
+    border-radius: 50px;
+}
+.progress-bar {
+    background-color: #007bff;
+    border-radius: 50px;
+}
+.resume-timeline-box {
+    margin-bottom: 15px;
+}
+.degree-duration {
+    display: block;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.degree-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+.institute-name {
+    font-size: 14px;
+    color: #555;
+}
+.portfolio-video iframe {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.portfolio-gallery img {
+    border-radius: 8px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.portfolio-gallery {
+    display: inline-block;
+    margin: 5px;
+}

@@ -1,0 +1,65 @@
+.posilogin {
+    background-color: #FFF;
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.07);
+    position: relative;
+    overflow: hidden;
+    margin-top: -200px;
+
+  }
+  .n-breadcrumb-info {
+  text-align: center;
+  /* padding: 20px; */
+}
+.n-breadcrumb-info h1 {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 600;
+  margin:0;
+  margin-bottom: 25px
+}
+.n-breadcrumb-info p {
+  color: #FFF;
+  font-size: 18px;
+  width: 57%;
+  margin: 0 auto;
+  display: block;
+
+ 
+}
+.n-breadcrumb-info h1::before {
+  background-color: #233d7b;
+  content: "";
+  height: 2px;
+  margin: 0 auto;
+  position: absolute;
+  width: 50px;
+  top: 45px;
+  left: 47%;
+}
+.btn-group label {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn-group input[type="radio"] {
+    display: none;
+  }
+
+  .btn-group label.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
