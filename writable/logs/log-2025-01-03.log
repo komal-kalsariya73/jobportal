@@ -1,0 +1,554 @@
+INFO - 2025-01-03 04:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 04:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 04:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 04:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 04:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 04:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 04:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 04:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 04:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 04:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 04:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-03 05:30:56 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${job.image}"
+[Method: GET, Route: uploads/$%7Bjob.image%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('uploads/${job.image}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('uploads/${job.image}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 05:35:04 --> ErrorException: Undefined variable $job
+[Method: GET, Route: jobs]
+in APPPATH\Views\jobs.php on line 233.
+ 1 APPPATH\Views\jobs.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\jobs.php', 233)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\jobs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jobs', [], true)
+ 5 APPPATH\Controllers\JobController.php(13): view('jobs')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-03 05:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 05:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 05:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 05:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 05:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 05:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 05:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 06:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 06:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 06:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 06:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 06:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 06:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 06:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 06:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 06:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-03 06:45:16 --> ErrorException: Undefined variable $jobs
+[Method: GET, Route: job/job-list]
+in APPPATH\Views\job\job-list.php on line 195.
+ 1 APPPATH\Views\job\job-list.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobs', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php', 195)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-list', [], true)
+ 5 APPPATH\Controllers\JoblistController.php(13): view('job/job-list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 06:49:38 --> ErrorException: Undefined variable $jobs
+[Method: GET, Route: job/job-list]
+in APPPATH\Views\job\job-list.php on line 195.
+ 1 APPPATH\Views\job\job-list.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobs', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php', 195)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-list', [], true)
+ 5 APPPATH\Controllers\JoblistController.php(13): view('job/job-list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 06:52:43 --> ErrorException: Undefined variable $jobs
+[Method: GET, Route: job/job-list]
+in APPPATH\Views\job\job-list.php on line 195.
+ 1 APPPATH\Views\job\job-list.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobs', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php', 195)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-list', [], true)
+ 5 APPPATH\Controllers\JoblistController.php(13): view('job/job-list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 06:54:07 --> ErrorException: Undefined variable $jobs
+[Method: GET, Route: job/job-list]
+in APPPATH\Views\job\job-list.php on line 195.
+ 1 APPPATH\Views\job\job-list.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobs', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php', 195)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-list', [], true)
+ 5 APPPATH\Controllers\JoblistController.php(13): view('job/job-list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 06:54:15 --> ErrorException: Undefined variable $jobs
+[Method: GET, Route: job/job-list]
+in APPPATH\Views\job\job-list.php on line 195.
+ 1 APPPATH\Views\job\job-list.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobs', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php', 195)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-list', [], true)
+ 5 APPPATH\Controllers\JoblistController.php(13): view('job/job-list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-03 08:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 08:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 08:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 08:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 09:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 09:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-03 09:42:45 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:46:30 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:46:35 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:46:37 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:46:42 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:46:43 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:46:43 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:46:44 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:46:44 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:46:44 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:46:44 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:46:46 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:46:50 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:47:04 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:47:07 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:47:11 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:47:12 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:47:12 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:47:12 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:47:12 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:47:12 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:47:17 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 09:47:20 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 10:31:21 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 10:36:51 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 10:45:54 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 10:46:11 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 10:46:18 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 10:48:13 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 10:48:24 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 10:48:25 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 10:48:25 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 10:48:56 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 10:48:57 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 10:48:58 --> BadMethodCallException: Call to undefined method App\Models\JobModel::applyFilters
+[Method: POST, Route: api/search-jobs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JoblistController.php(44): CodeIgniter\Model->__call('applyFilters', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 11:12:53 --> Error: Call to undefined method CodeIgniter\Pager\Pager::getLinks()
+[Method: POST, Route: api/search-jobs]
+in APPPATH\Controllers\JoblistController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 11:13:41 --> Error: Call to undefined method CodeIgniter\Pager\Pager::getLinks()
+[Method: POST, Route: api/search-jobs]
+in APPPATH\Controllers\JoblistController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 11:13:48 --> Error: Call to undefined method CodeIgniter\Pager\Pager::getLinks()
+[Method: POST, Route: api/search-jobs]
+in APPPATH\Controllers\JoblistController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 11:19:22 --> Error: Call to undefined method CodeIgniter\Pager\Pager::getLinks()
+[Method: POST, Route: api/search-jobs]
+in APPPATH\Controllers\JoblistController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 11:19:54 --> Error: Call to undefined method CodeIgniter\Pager\Pager::getLinks()
+[Method: POST, Route: api/search-jobs]
+in APPPATH\Controllers\JoblistController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->searchJobs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-03 12:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 12:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 12:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-03 13:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-03 13:13:49 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/job-list]
+in APPPATH\Views\job\job-list.php on line 538.
+ 1 APPPATH\Views\job\job-list.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php', 538)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-list', [], true)
+ 5 APPPATH\Controllers\JoblistController.php(27): view('job/job-list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-03 13:13:51 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/job-list]
+in APPPATH\Views\job\job-list.php on line 538.
+ 1 APPPATH\Views\job\job-list.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php', 538)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-list', [], true)
+ 5 APPPATH\Controllers\JoblistController.php(27): view('job/job-list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

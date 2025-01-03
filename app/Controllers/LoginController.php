@@ -56,7 +56,7 @@ class LoginController extends ResourceController
     'user_type'     => 'required',
             ];
     
-            // Custom Messages
+            
             $messages = [
                 'email' => [
                     'is_unique' => 'The email address is already registered.',
@@ -68,7 +68,7 @@ class LoginController extends ResourceController
                 ],
             ];
     
-            // Validate Request
+        
             if (!$this->validate($rules, $messages)) {
                 return $this->response->setJSON([
                     'status' => 'error',
@@ -76,21 +76,21 @@ class LoginController extends ResourceController
                 ]);
             }
     
-            // Get form data
+            
             $data = $this->request->getPost();
             $profileImage = $this->request->getFile('profile_image');
     
-            // Handle profile image upload
+            
             if ($profileImage && $profileImage->isValid()) {
                 $newName = $profileImage->getRandomName();
                 $profileImage->move(WRITEPATH . 'uploads', $newName);
                 $data['profile_image'] = $newName;
             }
     
-            // Hash the password
+            
             $data['password'] = password_hash($data['password'], PASSWORD_DEFAULT);
     
-            // Save user data
+            
             if ($this->model->insert($data)) {
                 return $this->response->setJSON([
                     'status'  => 'success',
@@ -98,7 +98,7 @@ class LoginController extends ResourceController
                 ]);
             }
     
-            // Handle model errors
+            
             return $this->response->setJSON([
                 'status' => 'error',
                 'errors' => $this->model->errors(),
@@ -135,19 +135,48 @@ class LoginController extends ResourceController
     }
     public function login()
     {
+        
+        $validation = \Config\Services::validation();
+        $rules = [
+            'email'    => 'required|valid_email', 
+            'password' => 'required|min_length[6]' 
+        ];
+    
+
+        if (!$this->validate($rules)) {
+            
+            return $this->response->setJSON([
+                'status' => 'error',
+                'errors' => $validation->getErrors() 
+            ]);
+        }
+    
+    
         $email = $this->request->getPost('email');
         $password = $this->request->getPost('password');
+    
     
         $userModel = new UserModel();
         $user = $userModel->where('email', $email)->first();
     
+    
         if ($user && password_verify($password, $user['password'])) {
+            
             session()->set('user', $user);
-            return $this->respond(['message' => 'Login successful', 'user' => $user]);
+            return $this->response->setJSON([
+                'status' => 'success',
+                'message' => 'Login successful',
+                'user' => $user
+            ]);
         }
     
-        return $this->fail('Invalid email or password.');
+    
+        return $this->response->setJSON([
+            'status' => 'error',
+            'message' => 'Invalid email or password.'
+        ]);
     }
+     
     
     
     public function logoutUser()

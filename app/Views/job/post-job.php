@@ -40,61 +40,54 @@
         </div>
         <div class="row mb-5">
           <div class="col-lg-12">
-            <form class="p-4 p-md-5 border rounded w-75 shadow" method="post">
+            <form class="p-4 p-md-5 border rounded w-75 shadow" method="" id="jobForm">
               <h3 class="text-black mb-5 border-bottom pb-2">Job Details</h3>
               
             
              
               <div class="form-group">
                 <label for="job-title">Job Title</label>
-                <input type="text" class="form-control" id="job-title" placeholder="Product Designer">
+                <input type="text" class="form-control" id="title" name="title" placeholder="Product Designer">
               </div>
               <div class="form-group">
                 <label for="job-location">Location</label>
-                <input type="text" class="form-control" id="job-location" placeholder="e.g. New York">
+                <input type="text" class="form-control" id="location" name="location" placeholder="e.g. New York">
               </div>
 
               <div class="form-group">
-                <label for="job-region">Job Name</label>
-                <select class="selectpicker border rounded" id="job-region" data-style="btn-black" data-width="100%" data-live-search="true" title="Select Region">
-                      <option>Anywhere</option>
-                      <option>San Francisco</option>
-                      <option>Palo Alto</option>
-                      <option>New York</option>
-                      <option>Manhattan</option>
-                      <option>Ontario</option>
-                      <option>Toronto</option>
-                      <option>Kansas</option>
-                      <option>Mountain View</option>
-                    </select>
-              </div>
+        <label for="category">Category</label>
+        <input type="text" class="form-control" id="category" name="category" placeholder="Design">
+      </div>
 
               <div class="form-group">
                 <label for="job-type">Job Type</label>
-                <select class="selectpicker border rounded" id="job-type" data-style="btn-black" data-width="100%" data-live-search="true" title="Select Job Type">
+                <select class="selectpicker border rounded" id="type" name="type" data-style="btn-black" data-width="100%" data-live-search="true" title="Select Job Type">
                   <option>Part Time</option>
                   <option>Full Time</option>
                 </select>
               </div>
               <div class="form-group">
                 <label for="job-title">salary</label>
-                <input type="text" class="form-control" id="job-title" placeholder="Product Designer">
+                <input type="text" class="form-control" id="salary" name="salary" placeholder="Product Designer">
               </div>
              
               <div class="form-group">
                 <label for="job-description">Job Description</label>
                 <div class="" id="editor-1">
                   <!-- <p>Write Job Description!</p> -->
-                  <textarea name="" id="" placeholder="Write Job Description!" class="form-control"></textarea>
+                  <textarea name="description" id="description" placeholder="Write Job Description!" class="form-control"></textarea>
                 </div>
               </div>
 
+              <div class="form-group">
+        <label for="image">Job Image</label>
+        <input type="file" class="form-control" id="image" name="image">
+    </div>
             
+               <!-- <a href="#" class="btn btn-block btn-primary btn-md w-25">Save Job</a> -->
+              <button type="submit">Save Job</button>
             
-               <a href="#" class="btn btn-block btn-primary btn-md w-25">Save Job</a>
-              
-            
-             
+             <div id="responseMessage"></div>
             </form>
           </div>
 
@@ -104,5 +97,34 @@
       </div>
     </section>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$('#jobForm').submit(function(e) {
+    e.preventDefault();
     
+    var formData = new FormData(this);
+    
+    $.ajax({
+        url: '<?= base_url('/job/store') ?>',
+        type: 'POST',
+        data: formData,
+        processData: false,
+        contentType: false,
+        success: function(response) {
+            if (response.status === 'success') {
+                $('#responseMessage').html('<p class="text-success">' + response.message + '</p>');
+                $("#jobForm")[0].reset();
+            } else if (response.status === 'error') {
+                $.each(response.errors, function(key, value) {
+                    $('#' + key).after('<p class="text-danger">' + value + '</p>');
+                });
+            }
+        },
+        error: function() {
+            $('#responseMessage').html('<p class="text-danger">An error occurred, please try again.</p>');
+        }
+    });
+});
+</script>
+
 <?= $this->endSection(); ?>

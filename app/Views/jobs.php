@@ -197,29 +197,73 @@
     </div>
   </div>
 
-  <ul class="job-listings mb-5">
-    <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
-      <a href="applyjob.php"></a>
+  <ul id="job-listings" class="job-listings mb-5">
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+  fetchJobs();
+
+  function fetchJobs() {
+    const jobListings = document.getElementById("job-listings");
+
+    // Define the base URL for images
+    const baseURL = '<?= base_url('uploads/') ?>';
+
+    fetch('<?= base_url('/jobs/fetchJobs') ?>') // Make sure this route works in routes.php
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        if (data.status === "success") {
+          const jobs = data.data;
+
+          // Clear existing listings
+          jobListings.innerHTML = "";
+
+          if (jobs.length === 0) {
+            jobListings.innerHTML = "<li>No jobs found.</li>";
+            return;
+          }
+
+          // Render each job
+          jobs.forEach(job => {
+            jobListings.innerHTML += `
+             <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
+      <a href="job-single.html"></a>
       <div class="job-listing-logo">
-        <img src="<?= base_url('public/assets/images/job_logo_1.jpg')?>" alt="Free Website Template by Free-Template.co" class="img-fluid">
-      </div>
-
-      <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
+                  <img src="${baseURL}${job.image}" alt="${job.title}" class="img-fluid">
+                </div>
+               <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
         <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
-          <h2>Product Designer</h2>
-          <strong>Adidas</strong>
+                 
+                   <h2>${job.title}</h2>
+          <strong>${job.description}</strong>
+                   </div>
+                      <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
+          <span class="icon-room"></span> ${job.location}
         </div>
-        <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
-          <span class="icon-room"></span> New York, New York
-        </div>
-        <div class="job-listing-meta">
-          <span class="badge badge-success">Apply Now</span>
+                  <div class="job-listing-meta">
+                  <span class="badge badge-success">Apply Now</span>
+                  </div>
+                </div>
+              </li>`;
+          });
+        } else {
+          jobListings.innerHTML = "<li>No jobs found.</li>";
+        }
+      })
+      .catch(error => {
+        console.error("Error fetching jobs:", error);
+        jobListings.innerHTML = "<li>Error loading jobs. Please try again later.</li>";
+      });
+  }
+});
 
-        </div>
 
-      </div>
+</script>
 
-    </li>
     <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
       <a href="job-single.html"></a>
       <div class="job-listing-logo">

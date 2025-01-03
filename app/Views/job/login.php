@@ -27,13 +27,13 @@
                   <div class="row form-group">
                     <div class="col-md-12 mb-3 mb-md-0">
                       <label class="text-black" for="fname">Email</label>
-                      <input type="text" id="fname" class="form-control" placeholder="Email address">
+                      <input type="text" id="email" name="email" class="form-control" placeholder="Email address">
                     </div>
                   </div>
                   <div class="row form-group mb-4">
                     <div class="col-md-12 mb-3 mb-md-0">
                       <label class="text-black" for="fname">Password</label>
-                      <input type="password" id="fname" class="form-control" placeholder="Password">
+                      <input type="password" id="password" name="password" class="form-control" placeholder="Password">
                     </div>
                   </div>
 
@@ -68,10 +68,10 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-      $('#loginform').submit(function (e) {
-    e.preventDefault();
+   $('#loginform').submit(function (e) {
+    e.preventDefault(); 
 
-    let formData = new FormData(this);
+    let formData = new FormData(this); 
 
     $.ajax({
         url: '<?= base_url('/api/login') ?>', 
@@ -85,26 +85,23 @@
 
             if (response.status === 'success') {
                 
-                $("#responseMessage").html('<p class="text-success">' + response.message + '<a href="<?= base_url('/job/login') ?>">Login</a></p>');
-
-            
-                $("#signupForm")[0].reset();
-            } else if (response.status === 'error') {
+                $("#responseMessage").html('<p class="text-success">' + response.message + '</p>');
                 
+                window.location.href = '<?= base_url('/jobs') ?>'; 
+            } else if (response.status === 'error') {
+                $("#responseMessage").html('<p class="text-danger">' + response.message + '</p>');
                 $.each(response.errors, function (key, value) {
-            if (key === 'gender' || key === 'user_type') {
-                $('#' + key).after('<p class="text-danger">' + value + '</p>');
-            } else {
-                $('#' + key).after('<p class="text-danger">' + value + '</p>');
-            }
-        });
+                    $('#' + key).after('<p class="text-danger">' + value + '</p>');
+                });
             }
         },
         error: function () {
+        
             $("#responseMessage").html('<p class="text-danger">An error occurred. Please try again.</p>');
         }
     });
 });
+
 
     </script>
     
