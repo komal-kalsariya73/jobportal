@@ -10,7 +10,7 @@ class JobModel extends Model
     protected $primaryKey = 'id';
     protected $allowedFields = ['employer_id', 'title', 'description', 'location', 'category', 'salary', 'type','image'];
     protected $useTimestamps = true;
-
+    protected $returnType     = 'array';
     public function searchJobs($jobTitle, $categories, $address, $distance, $sortOrder, $limit, $offset)
 {
     $builder = $this->builder();

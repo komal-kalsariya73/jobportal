@@ -1,0 +1,1201 @@
+CRITICAL - 2025-01-06 04:30:36 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/job-list]
+in APPPATH\Views\job\job-list.php on line 538.
+ 1 APPPATH\Views\job\job-list.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php', 538)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-list', [], true)
+ 5 APPPATH\Controllers\JoblistController.php(27): view('job/job-list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 04:36:50 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: job/%3C]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('job/<')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('job/<')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 04:37:17 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: job/%3C]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('job/<')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('job/<')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 04:37:20 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/job-list]
+in APPPATH\Views\job\job-list.php on line 538.
+ 1 APPPATH\Views\job\job-list.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php', 538)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-list', [], true)
+ 5 APPPATH\Controllers\JoblistController.php(27): view('job/job-list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 04:37:22 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/job-list]
+in APPPATH\Views\job\job-list.php on line 538.
+ 1 APPPATH\Views\job\job-list.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php', 538)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-list', [], true)
+ 5 APPPATH\Controllers\JoblistController.php(27): view('job/job-list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 04:46:14 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/job-list]
+in APPPATH\Views\job\job-list.php on line 538.
+ 1 APPPATH\Views\job\job-list.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php', 538)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-list', [], true)
+ 5 APPPATH\Controllers\JoblistController.php(27): view('job/job-list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 04:48:03 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/job-list]
+in APPPATH\Views\job\job-list.php on line 538.
+ 1 APPPATH\Views\job\job-list.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php', 538)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-list', [], true)
+ 5 APPPATH\Controllers\JoblistController.php(27): view('job/job-list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 04:49:12 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/job-list]
+in APPPATH\Views\job\job-list.php on line 538.
+ 1 APPPATH\Views\job\job-list.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php', 538)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-list', [], true)
+ 5 APPPATH\Controllers\JoblistController.php(27): view('job/job-list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 04:49:23 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/job-list]
+in APPPATH\Views\job\job-list.php on line 538.
+ 1 APPPATH\Views\job\job-list.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php', 538)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-list', [], true)
+ 5 APPPATH\Controllers\JoblistController.php(27): view('job/job-list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 04:49:38 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/job-list]
+in APPPATH\Views\job\job-list.php on line 538.
+ 1 APPPATH\Views\job\job-list.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php', 538)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-list', [], true)
+ 5 APPPATH\Controllers\JoblistController.php(27): view('job/job-list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 04:50:11 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/job-list]
+in APPPATH\Views\job\job-list.php on line 538.
+ 1 APPPATH\Views\job\job-list.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php', 538)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-list', [], true)
+ 5 APPPATH\Controllers\JoblistController.php(27): view('job/job-list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JoblistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JoblistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 06:20:45 --> ErrorException: Undefined variable $jobId
+[Method: GET, Route: job/job-single/12]
+in APPPATH\Views\job\job-single.php on line 259.
+ 1 APPPATH\Views\job\job-single.php(259): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobId', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-single.php', 259)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-single.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-single', [], true)
+ 5 APPPATH\Controllers\SinglejobController.php(26): view('job/job-single', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SinglejobController->single('12')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SinglejobController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-06 06:54:43 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 06:57:30 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 06:58:02 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:03:16 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:03:56 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:04:33 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:06:31 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:06:40 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:07:47 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:11:07 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:13:09 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:15:58 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:20:13 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:21:21 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:21:26 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:24:46 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:25:29 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:26:02 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:26:18 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:26:55 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:27:08 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:30:45 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 07:31:03 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:31:10 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:34:59 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:38:44 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:40:20 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:41:23 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:42:14 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:42:37 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:43:15 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:43:35 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:43:50 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:45:11 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:45:51 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:47:24 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:48:04 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:52:10 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:52:26 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 07:52:35 --> singleApi method called with ID: 15
+DEBUG - 2025-01-06 08:01:51 --> singleApi method called with ID: 1
+DEBUG - 2025-01-06 08:02:12 --> singleApi method called with ID: 10
+DEBUG - 2025-01-06 08:02:15 --> singleApi method called with ID: 10
+DEBUG - 2025-01-06 08:02:21 --> singleApi method called with ID: 10
+DEBUG - 2025-01-06 08:03:32 --> singleApi method called with ID: 10
+DEBUG - 2025-01-06 08:03:45 --> singleApi method called with ID: 10
+DEBUG - 2025-01-06 08:05:22 --> singleApi method called with ID: 10
+CRITICAL - 2025-01-06 08:17:57 --> Error: Call to a member function getName() on null
+[Method: POST, Route: applyJob]
+in APPPATH\Controllers\JobapplyController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 08:20:29 --> Error: Call to a member function getName() on null
+[Method: POST, Route: applyJob]
+in APPPATH\Controllers\JobapplyController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 08:21:10 --> Error: Call to a member function getName() on null
+[Method: POST, Route: applyJob]
+in APPPATH\Controllers\JobapplyController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-06 08:48:31 --> singleApi method called with ID: 14
+DEBUG - 2025-01-06 08:48:42 --> singleApi method called with ID: 15
+CRITICAL - 2025-01-06 09:26:05 --> ArgumentCountError: Too few arguments to function App\Controllers\JobapplyController::display(), 0 passed in C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: job/jobapply]
+in APPPATH\Controllers\JobapplyController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->display()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-06 09:33:53 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ap...', 0)
+#1 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\komal\Codeigniter\jobportal\app\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+#10 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+#11 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\komal\Codeigniter\jobportal\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-01-06 09:33:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+[Method: POST, Route: jobapply/applyJob]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`, `created_at`, `updated_at`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 09:33:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`, `created_at`, `updated_at`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:33:53\', \'komal\', \'2025-01-06 09:33:53\', \'2025-01-06 09:33:53\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`, `created_at`, `updated_at`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:33:53\', \'komal\', \'2025-01-06 09:33:53\', \'2025-01-06 09:33:53\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`, `created_at`, `updated_at`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 09:33:53 --> [Caused by] mysqli_sql_exception: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`, `created_at`, `updated_at`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:33:53\', \'komal\', \'2025-01-06 09:33:53\', \'2025-01-06 09:33:53\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`, `created_at`, `updated_at`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:33:53\', \'komal\', \'2025-01-06 09:33:53\', \'2025-01-06 09:33:53\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`, `created_at`, `updated_at`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:33:53\', \'komal\', \'2025-01-06 09:33:53\', \'2025-01-06 09:33:53\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`, `created_at`, `updated_at`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-06 09:38:14 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ap...', 0)
+#1 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\komal\Codeigniter\jobportal\app\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+#10 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+#11 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\komal\Codeigniter\jobportal\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-01-06 09:38:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+[Method: POST, Route: jobapply/applyJob]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`, `created_at`, `updated_at`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 09:38:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`, `created_at`, `updated_at`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_1.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:38:14\', \'komal\', \'2025-01-06 09:38:14\', \'2025-01-06 09:38:14\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`, `created_at`, `updated_at`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_1.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:38:14\', \'komal\', \'2025-01-06 09:38:14\', \'2025-01-06 09:38:14\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`, `created_at`, `updated_at`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 09:38:14 --> [Caused by] mysqli_sql_exception: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`, `created_at`, `updated_at`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_1.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:38:14\', \'komal\', \'2025-01-06 09:38:14\', \'2025-01-06 09:38:14\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`, `created_at`, `updated_at`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_1.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:38:14\', \'komal\', \'2025-01-06 09:38:14\', \'2025-01-06 09:38:14\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`, `created_at`, `updated_at`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_1.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:38:14\', \'komal\', \'2025-01-06 09:38:14\', \'2025-01-06 09:38:14\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`, `created_at`, `updated_at`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-06 09:40:01 --> mysqli_sql_exception: Column 'job_id' cannot be null in C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ap...', 0)
+#1 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\komal\Codeigniter\jobportal\app\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+#10 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+#11 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\komal\Codeigniter\jobportal\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-01-06 09:40:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+[Method: POST, Route: jobapply/applyJob]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 09:40:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_2.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:40:01\', \'komal\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_2.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:40:01\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 09:40:01 --> [Caused by] mysqli_sql_exception: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_2.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:40:01\', \'komal\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_2.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:40:01\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_2.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:40:01\', \'komal\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-06 09:42:48 --> mysqli_sql_exception: Column 'job_id' cannot be null in C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ap...', 0)
+#1 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\komal\Codeigniter\jobportal\app\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+#10 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+#11 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\komal\Codeigniter\jobportal\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-01-06 09:42:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+[Method: POST, Route: jobapply/applyJob]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 09:42:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_3.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:42:48\', \'komal\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_3.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:42:48\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 09:42:48 --> [Caused by] mysqli_sql_exception: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_3.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:42:48\', \'komal\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_3.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:42:48\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_3.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:42:48\', \'komal\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-06 09:42:54 --> mysqli_sql_exception: Column 'job_id' cannot be null in C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ap...', 0)
+#1 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\komal\Codeigniter\jobportal\app\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+#10 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+#11 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\komal\Codeigniter\jobportal\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-01-06 09:42:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+[Method: POST, Route: jobapply/applyJob]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 09:42:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_4.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:42:54\', \'komal\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_4.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:42:54\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 09:42:54 --> [Caused by] mysqli_sql_exception: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_4.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:42:54\', \'komal\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_4.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:42:54\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_4.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:42:54\', \'komal\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\JobapplyController.php(57): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-06 09:48:48 --> mysqli_sql_exception: Column 'job_id' cannot be null in C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ap...', 0)
+#1 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\komal\Codeigniter\jobportal\app\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+#10 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+#11 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\komal\Codeigniter\jobportal\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-01-06 09:48:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+[Method: POST, Route: jobapply/applyJob]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 09:48:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_5.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:48:48\', \'komal\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_5.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:48:48\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 09:48:48 --> [Caused by] mysqli_sql_exception: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_5.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:48:48\', \'komal\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_5.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:48:48\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_5.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:48:48\', \'komal\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-06 09:48:56 --> mysqli_sql_exception: Column 'job_id' cannot be null in C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ap...', 0)
+#1 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\komal\Codeigniter\jobportal\app\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+#10 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+#11 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\komal\Codeigniter\jobportal\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-01-06 09:48:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+[Method: POST, Route: jobapply/applyJob]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 09:48:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_6.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:48:56\', \'komal\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_6.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:48:56\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 09:48:56 --> [Caused by] mysqli_sql_exception: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_6.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:48:56\', \'komal\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_6.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:48:56\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_6.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:48:56\', \'komal\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-06 09:49:33 --> mysqli_sql_exception: Column 'job_id' cannot be null in C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ap...', 0)
+#1 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\komal\Codeigniter\jobportal\app\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+#10 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+#11 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\komal\Codeigniter\jobportal\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-01-06 09:49:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+[Method: POST, Route: jobapply/applyJob]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 09:49:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_7.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:49:33\', \'komal\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_7.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:49:33\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 09:49:33 --> [Caused by] mysqli_sql_exception: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_7.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:49:33\', \'komal\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_7.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:49:33\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_7.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the\', \'2025-01-06 09:49:33\', \'komal\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:00:01 --> Error: Call to undefined method App\Controllers\JobapplyController::isLoggedIn()
+[Method: GET, Route: job/jobapply]
+in APPPATH\Controllers\JobapplyController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->display()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-06 10:02:14 --> singleApi method called with ID: 15
+INFO - 2025-01-06 10:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 10:06:32 --> singleApi method called with ID: 10
+INFO - 2025-01-06 10:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 10:07:14 --> singleApi method called with ID: 10
+INFO - 2025-01-06 10:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 10:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 10:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 10:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 10:10:24 --> singleApi method called with ID: 10
+INFO - 2025-01-06 10:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 10:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 10:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 10:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-06 10:16:25 --> mysqli_sql_exception: Column 'job_id' cannot be null in C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ap...', 0)
+#1 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\komal\Codeigniter\jobportal\app\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+#10 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+#11 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\komal\Codeigniter\jobportal\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-01-06 10:16:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+[Method: POST, Route: jobapply/applyJob]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:16:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'demo@gmail.com\', \'https://github.com\', \'6745b2466d321_8.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the 1500s \', \'2025-01-06 10:16:25\', \'komal\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'demo@gmail.com\', \'https://github.com\', \'6745b2466d321_8.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the 1500s \', \'2025-01-06 10:16:25\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:16:25 --> [Caused by] mysqli_sql_exception: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'demo@gmail.com\', \'https://github.com\', \'6745b2466d321_8.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the 1500s \', \'2025-01-06 10:16:25\', \'komal\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'demo@gmail.com\', \'https://github.com\', \'6745b2466d321_8.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the 1500s \', \'2025-01-06 10:16:25\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'demo@gmail.com\', \'https://github.com\', \'6745b2466d321_8.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the 1500s \', \'2025-01-06 10:16:25\', \'komal\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-06 10:18:38 --> mysqli_sql_exception: Column 'job_id' cannot be null in C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ap...', 0)
+#1 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\komal\Codeigniter\jobportal\app\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+#10 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+#11 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\komal\Codeigniter\jobportal\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-01-06 10:18:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+[Method: POST, Route: jobapply/applyJob]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:18:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'demo@gmail.com\', \'https://github.com\', \'6745b2466d321_9.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the 1500s \', \'2025-01-06 10:18:38\', \'komal\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'demo@gmail.com\', \'https://github.com\', \'6745b2466d321_9.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the 1500s \', \'2025-01-06 10:18:38\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:18:38 --> [Caused by] mysqli_sql_exception: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'demo@gmail.com\', \'https://github.com\', \'6745b2466d321_9.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the 1500s \', \'2025-01-06 10:18:38\', \'komal\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'demo@gmail.com\', \'https://github.com\', \'6745b2466d321_9.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the 1500s \', \'2025-01-06 10:18:38\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'demo@gmail.com\', \'https://github.com\', \'6745b2466d321_9.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the 1500s \', \'2025-01-06 10:18:38\', \'komal\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\JobapplyController.php(67): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:20:41 --> Error: Array callback must have exactly two elements
+[Method: POST, Route: jobapply/applyJob]
+in APPPATH\Controllers\JobapplyController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-06 10:25:06 --> singleApi method called with ID: 10
+INFO - 2025-01-06 10:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 10:25:31 --> singleApi method called with ID: 10
+INFO - 2025-01-06 10:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 10:26:10 --> singleApi method called with ID: 14
+INFO - 2025-01-06 10:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 10:28:45 --> singleApi method called with ID: 10
+INFO - 2025-01-06 10:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 10:30:41 --> singleApi method called with ID: 12
+CRITICAL - 2025-01-06 10:30:44 --> ArgumentCountError: Too few arguments to function App\Controllers\JobapplyController::display(), 0 passed in C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: job/jobapply]
+in APPPATH\Controllers\JobapplyController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->display()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:33:07 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/jobapply]
+in APPPATH\Views\job\jobapply.php on line 24.
+ 1 APPPATH\Views\job\jobapply.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\jobapply.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\jobapply.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/jobapply', [], true)
+ 5 APPPATH\Controllers\JobapplyController.php(15): view('job/jobapply', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->display()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:33:26 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/jobapply]
+in APPPATH\Views\job\jobapply.php on line 63.
+ 1 APPPATH\Views\job\jobapply.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\jobapply.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\jobapply.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/jobapply', [], true)
+ 5 APPPATH\Controllers\JobapplyController.php(15): view('job/jobapply', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->display()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-06 10:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-06 10:37:21 --> mysqli_sql_exception: Column 'job_id' cannot be null in C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ap...', 0)
+#1 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\komal\Codeigniter\jobportal\app\Controllers\JobapplyController.php(59): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+#10 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+#11 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\komal\Codeigniter\jobportal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\komal\Codeigniter\jobportal\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-01-06 10:37:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+[Method: POST, Route: jobapply/applyJob]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\JobapplyController.php(59): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:37:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_11.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the 1500s ...\', \'2025-01-06 10:37:21\', \'komal\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_11.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the 1500s ...\', \'2025-01-06 10:37:21\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\JobapplyController.php(59): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:37:21 --> [Caused by] mysqli_sql_exception: Column 'job_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_11.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the 1500s ...\', \'2025-01-06 10:37:21\', \'komal\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_11.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the 1500s ...\', \'2025-01-06 10:37:21\', \'komal\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (NULL, 1, \'komal@gmail.com\', \'https://github.com\', \'6745b2466d321_11.docx\', \'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the 1500s ...\', \'2025-01-06 10:37:21\', \'komal\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `application` (`job_id`, `candidate_id`, `email`, `link`, `resume`, `message`, `applied_at`, `name`) VALUES (:job_id:, :candidate_id:, :email:, :link:, :resume:, :message:, :applied_at:, :name:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\JobapplyController.php(59): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->applyJob()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:41:26 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/jobapply]
+in APPPATH\Views\job\jobapply.php on line 61.
+ 1 APPPATH\Views\job\jobapply.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\jobapply.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\jobapply.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/jobapply', [], true)
+ 5 APPPATH\Controllers\JobapplyController.php(15): view('job/jobapply', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->display()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:41:29 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/jobapply]
+in APPPATH\Views\job\jobapply.php on line 61.
+ 1 APPPATH\Views\job\jobapply.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\jobapply.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\jobapply.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/jobapply', [], true)
+ 5 APPPATH\Controllers\JobapplyController.php(15): view('job/jobapply', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->display()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-06 10:41:33 --> singleApi method called with ID: 12
+DEBUG - 2025-01-06 10:41:36 --> singleApi method called with ID: 10
+CRITICAL - 2025-01-06 10:41:41 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/jobapply]
+in APPPATH\Views\job\jobapply.php on line 61.
+ 1 APPPATH\Views\job\jobapply.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\jobapply.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\jobapply.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/jobapply', [], true)
+ 5 APPPATH\Controllers\JobapplyController.php(15): view('job/jobapply', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobapplyController->display()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobapplyController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-06 10:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 10:45:48 --> singleApi method called with ID: 10
+INFO - 2025-01-06 10:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 10:48:46 --> singleApi method called with ID: 10
+DEBUG - 2025-01-06 10:51:44 --> singleApi method called with ID: 12
+INFO - 2025-01-06 10:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 10:51:53 --> singleApi method called with ID: 12
+DEBUG - 2025-01-06 10:52:03 --> singleApi method called with ID: 14
+INFO - 2025-01-06 10:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 10:52:12 --> singleApi method called with ID: 14
+CRITICAL - 2025-01-06 10:57:19 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/job-single]
+in APPPATH\Views\job\job-single.php on line 67.
+ 1 APPPATH\Views\job\job-single.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-single.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-single.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-single', [], true)
+ 5 APPPATH\Controllers\SinglejobController.php(12): view('job/job-single', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SinglejobController->display()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SinglejobController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-06 10:58:41 --> singleApi method called with ID: 14
+INFO - 2025-01-06 11:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 11:04:55 --> singleApi method called with ID: 10
+CRITICAL - 2025-01-06 11:06:42 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/job-single]
+in APPPATH\Views\job\job-single.php on line 67.
+ 1 APPPATH\Views\job\job-single.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-single.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-single.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-single', [], true)
+ 5 APPPATH\Controllers\SinglejobController.php(12): view('job/job-single', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SinglejobController->display()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SinglejobController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 11:09:54 --> ErrorException: Undefined variable $job
+[Method: GET, Route: job/job-single]
+in APPPATH\Views\job\job-single.php on line 66.
+ 1 APPPATH\Views\job\job-single.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-single.php', 66)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-single.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-single', [], true)
+ 5 APPPATH\Controllers\SinglejobController.php(12): view('job/job-single', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SinglejobController->display()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SinglejobController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 11:12:57 --> ErrorException: Undefined variable $jobs
+[Method: GET, Route: job/job-single]
+in APPPATH\Views\job\job-single.php on line 65.
+ 1 APPPATH\Views\job\job-single.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobs', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-single.php', 65)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-single.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-single', [], true)
+ 5 APPPATH\Controllers\SinglejobController.php(12): view('job/job-single', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SinglejobController->display()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SinglejobController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 11:13:03 --> ErrorException: Undefined variable $jobs
+[Method: GET, Route: job/job-single]
+in APPPATH\Views\job\job-single.php on line 65.
+ 1 APPPATH\Views\job\job-single.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobs', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-single.php', 65)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\job\\job-single.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('job/job-single', [], true)
+ 5 APPPATH\Controllers\SinglejobController.php(12): view('job/job-single', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SinglejobController->display()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SinglejobController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-06 11:13:21 --> singleApi method called with ID: 10
+INFO - 2025-01-06 11:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 11:20:49 --> singleApi method called with ID: 15
+INFO - 2025-01-06 11:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 11:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 11:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 11:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 11:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 11:47:54 --> singleApi method called with ID: 12
+INFO - 2025-01-06 11:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 11:58:36 --> ErrorException: Undefined variable $candidates
+[Method: GET, Route: jobs]
+in APPPATH\Views\jobs.php on line 439.
+ 1 APPPATH\Views\jobs.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $candidates', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\jobs.php', 439)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\jobportal\\app\\Views\\jobs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jobs', [], true)
+ 5 APPPATH\Controllers\JobController.php(15): view('jobs')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -407,10 +407,9 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <!-- Apply Button Section -->
                                         <div class="col-md-2 text-right">
                                             <a href="job_details/${job.id}" class="btn btn-primary btn-sm">Apply Now</a>
+                                                 <a href="<?= base_url('/job/job-single') ?>?id=${job.id}">view
                                         </div>
-                                          <div class="col-md-2 text-right">
-                                            <a href="job-single/${job.id}" class="btn btn-primary btn-sm">View Detail</a>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -490,7 +489,8 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             if (data.status === "success") {
                 const jobListings = document.getElementById('job-listings');
-                jobListings.innerHTML = ''; // Clear existing listings
+                const baseURL = '<?= base_url(); ?>';
+                jobListings.innerHTML = '';
                 data.data.forEach(job => {
                     jobListings.innerHTML += `
                         <div class="col-lg-12">
@@ -533,11 +533,11 @@ document.addEventListener('DOMContentLoaded', function() {
                                         <!-- Apply Button Section -->
                                         <div class="col-md-2 text-right">
                                             <a href="job_details/${job.id}" class="btn btn-primary btn-sm">Apply Now</a>
-                                        </div>
-                                         <div class="col-md-2 text-right">
-                                          <a href="<?php echo base_url('job-single/' . $job->id); ?>" class="btn btn-primary btn-sm">View Detail</a>
+                                    <a href="<?= base_url('/job/job-single') ?>?id=${job.id}">view
+
 
                                         </div>
+                                     
                                     </div>
                                 </div>
                             </div>                    `;

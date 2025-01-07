@@ -7,7 +7,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('/jobs', 'JobController::index');
-$routes->get('/job/job-single', 'SinglejobController::index');
+
 $routes->get('/job/post-job', 'PostjobController::index');
 
 
@@ -30,6 +30,20 @@ $routes->get('/api/users', 'LoginController::getUsers');
 $routes->post('/job/store', 'PostjobController::store');
 $routes->get('/jobs/fetchJobs', 'PostjobController::fetchJobs');
 
+$routes->get('/job/job-single', 'SinglejobController::display');
+// $routes->get('/job/job-single/(:num)', 'SinglejobController::single/$1');
+$routes->get('/job/singleApi/(:num)', 'SinglejobController::singleApi/$1');
+
+
+
+
+ $routes->get('/job/jobapply', 'JobapplyController::display');
+$routes->post('jobapply/applyJob', 'JobapplyController::applyJob');
+
+$routes->get('/jobs', 'JobController::display');
+$routes->get('/jobs/dispaly', 'JobController::dispaly'); 
+
 $routes->get('/jobs', 'PostjobController::joblist');
+
 
 $routes->post('/api/login', 'LoginController::login'); 

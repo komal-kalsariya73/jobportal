@@ -426,96 +426,80 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <section class="n-featured-jobs">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="heading-title left position-relative mb-5">
+                    <h2>Featured Candidates</h2>
+                </div>
+            </div>
+            
+            <!-- Candidate Listings -->
+            <div id="candidate-listings" class="row">
+                <!-- Candidates will be rendered here dynamically -->
+            </div>
 
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-lg-12 col-md-12 col-sm-12">
-      <div class="heading-title left position-relative mb-5">
-        <h2>Featured Candidates</h2>
-      </div>
+           
+        </div>
     </div>
-    <div class="col-md-4">
-      <div class="candidate-card position-relative p-3 text-center">
-        <!-- Bookmark Icon -->
-        <span class="bookmark-icon"><i class="fa fa-heart-o"></i></span>
-
-        <!-- Candidate Avatar -->
-        <div class="candidate-avatar mx-auto mb-3">
-          <img src="https://jobs.nokriwp.com/wp-content/uploads/2018/09/images-7-1.png" alt="David">
-        </div>
-
-        <!-- Candidate Details -->
-        <h4 class="candidate-title">David</h4>
-        <p class="">Data Entry Officer</p>
-        <p class=""><i class="fa fa-map-marker"></i> Chickasaw, USA</p>
-
-        <!-- Skills -->
-        <div class="candidate-skills mb-3">
-          <a href="#">Patience</a>
-          <a href="#">Commitment</a>
-          <a href="#">Trainings</a>
-        </div>
-
-        <!-- View Profile Button -->
-        <a href="profile.php" class="btn btn-primary w-100">View Profile</a>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="candidate-card position-relative p-3 text-center">
-        <!-- Bookmark Icon -->
-        <span class="bookmark-icon"><i class="fa fa-heart-o"></i></span>
-
-        <!-- Candidate Avatar -->
-        <div class="candidate-avatar mx-auto mb-3">
-          <img src="https://jobs.nokriwp.com/wp-content/uploads/2018/09/images-7-1.png" alt="David">
-        </div>
-
-        <!-- Candidate Details -->
-        <h4 class="candidate-title">David</h4>
-        <p class="">Data Entry Officer</p>
-        <p class=""><i class="fa fa-map-marker"></i> Chickasaw, USA</p>
-
-        <!-- Skills -->
-        <div class="candidate-skills mb-3">
-          <a href="#">Patience</a>
-          <a href="#">Commitment</a>
-          <a href="#">Trainings</a>
-        </div>
-
-        <!-- View Profile Button -->
-        <a href="https://jobs.nokriwp.com/candidate/robert/" class="btn btn-primary w-100">View Profile</a>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="candidate-card position-relative p-3 text-center">
-        <!-- Bookmark Icon -->
-        <span class="bookmark-icon"><i class="fa fa-heart-o"></i></span>
-
-        <!-- Candidate Avatar -->
-        <div class="candidate-avatar mx-auto mb-3">
-          <img src="https://jobs.nokriwp.com/wp-content/uploads/2018/09/images-7-1.png" alt="David">
-        </div>
-
-        <!-- Candidate Details -->
-        <h4 class="candidate-title">David</h4>
-        <p class="">Data Entry Officer</p>
-        <p class=""><i class="fa fa-map-marker"></i> Chickasaw, USA</p>
-
-        <!-- Skills -->
-        <div class="candidate-skills mb-3">
-          <a href="#">Patience</a>
-          <a href="#">Commitment</a>
-          <a href="#">Trainings</a>
-        </div>
-
-        <!-- View Profile Button -->
-        <a href="https://jobs.nokriwp.com/candidate/robert/" class="btn btn-primary w-100">View Profile</a>
-      </div>
-    </div>
-  </div>
-</div>
-
 </section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    fetchJobsAndCandidates();
+
+    function fetchJobsAndCandidates() {
+      
+        const candidateListings = document.getElementById("candidate-listings");
+        const baseURL = '<?= base_url('uploads/') ?>';
+        // Fetch data from the backend using AJAX
+        fetch('<?= base_url('/jobs/dispaly') ?>') // This URL should be routed correctly in your routes.php
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === "success") {
+                    const jobs = data.jobs;
+                    const candidates = data.candidates;
+
+                    // Render job listings
+                  
+
+                    // Render candidate listings
+                    candidateListings.innerHTML = "";
+                    if (candidates.length === 0) {
+                        candidateListings.innerHTML = "<p>No candidates found.</p>";
+                    } else {
+                        candidates.forEach(candidate => {
+                            candidateListings.innerHTML += `
+                                <div class="col-md-4">
+                                    <div class="candidate-card position-relative p-3 text-center">
+                                        <span class="bookmark-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="candidate-avatar mx-auto mb-3">
+                                           
+                                         <img src="${baseURL}${candidate.image}" alt="${candidate.name}" class="img-fluid">
+                                            </div>
+                                        <h4 class="candidate-title">${candidate.name}</h4>
+                                        <p>${candidate.gender}</p>
+                                        <p><i class="fa fa-map-marker"></i> ${candidate.location}</p>
+                                      
+                                        <a href="<?= base_url('/candidate/profile/') ?>/${candidate.id}" class="btn btn-primary w-100">View Profile</a>
+                                    </div>
+                                </div>
+                            `;
+                        });
+                    }
+                } else {
+                    jobListings.innerHTML = "<p>Error loading jobs. Please try again later.</p>";
+                    candidateListings.innerHTML = "<p>Error loading candidates. Please try again later.</p>";
+                }
+            })
+            .catch(error => {
+                console.error("Error fetching jobs and candidates:", error);
+                jobListings.innerHTML = "<p>Error loading data. Please try again later.</p>";
+                candidateListings.innerHTML = "<p>Error loading data. Please try again later.</p>";
+            });
+    }
+});
+</script>
 
 <section class="">
     <div class="container">
