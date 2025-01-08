@@ -41,9 +41,14 @@ $routes->get('/job/singleApi/(:num)', 'SinglejobController::singleApi/$1');
 $routes->post('jobapply/applyJob', 'JobapplyController::applyJob');
 
 $routes->get('/jobs', 'JobController::display');
-$routes->get('/jobs/dispaly', 'JobController::dispaly'); 
+$routes->get('/jobs/display', 'JobController::display'); 
 
 $routes->get('/jobs', 'PostjobController::joblist');
 
 
 $routes->post('/api/login', 'LoginController::login'); 
+
+
+// $routes->get('/job/profile/(:num)', 'ProfileController::index/$1'); 
+$routes->get('/job/profile', 'ProfileController::display');
+$routes->get('job/profileApi/(:num)', 'ProfileController::profileApi/$1');

@@ -15,20 +15,28 @@ class JobController extends BaseController
         return view('jobs');
     }
 
-    public function dispaly()
+    public function display()
     {
-        $jobModel = new JobModel();
-        $candidateModel = new UserModel();
-
-        // Fetch all jobs and candidates from the database
-        $jobs = $jobModel->findAll();  // Get all jobs
-        $candidates = $candidateModel->where('user_type', 'candidate')->findAll();
-
-        // Respond with JSON
+        $db = \Config\Database::connect();
+    
+        // Join the application, candidate, and job tables
+        $query = $db->table('application')
+        ->select('application.id as application_id, 
+                  users.name as candidate_name, 
+                  users.profile_image, 
+                  jobpost.type as job_type, 
+                  jobpost.location as job_location')
+        ->join('users', 'application.candidate_id = users.id', 'left')
+        ->join('jobpost', 'application.job_id = jobpost.id', 'left')
+        ->where('users.user_type', 'candidate') 
+        ->get();
+    
+        $applications = $query->getResultArray();
+    
         return $this->response->setJSON([
             'status' => 'success',
-            'jobs' => $jobs,
-            'candidates' => $candidates
+            'applications' => $applications
         ]);
     }
+    
 }

@@ -83,7 +83,7 @@ class LoginController extends ResourceController
             
             if ($profileImage && $profileImage->isValid()) {
                 $newName = $profileImage->getRandomName();
-                $profileImage->move(WRITEPATH . 'uploads', $newName);
+                $profileImage->move(FCPATH . 'uploads', $newName);
                 $data['profile_image'] = $newName;
             }
     

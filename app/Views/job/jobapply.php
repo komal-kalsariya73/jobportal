@@ -46,7 +46,8 @@
                     <div class="col-md-12">
                         <div class="form-group">
                             <label for="resume" class="form-label">Upload CV</label>
-                            <input type="file" class="form-control" id="resume" name="resume">
+                            <input type="file" class="form-control" id="resume" name="resume" accept=".pdf,.doc,.docx">
+
                             <span class="text-danger" id="resumeError"></span>
                         </div>
                     </div>
